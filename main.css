@@ -1,0 +1,141 @@
+
+body{ margin: 0px; }
+		
+#gameWindow{
+	width: 2000px;
+	height: 1500px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+#man{
+	float: left;
+	width: 150px;
+	text-align: center;
+	margin: 100px;
+	margin-top: 0px;
+}
+
+#main{
+	position: relative;
+	width:600px;
+	height: 500px;
+	margin-top: 40px;
+	float: left;
+	border: 1px solid white;
+}
+
+#gameBoard, #splashScreen{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+#splashScreen{
+	z-index: 2;
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-size: 40pt;
+	text-align: center;
+}
+
+#btnStart{
+	padding: 10px;
+	margin: 100px auto;
+	background-color: white;
+	width: 200px;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+#btnStart:hover{
+	background-color: yellow;
+}
+
+.button{
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+.buttonHint{
+	color: white;
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.panel{
+	background-color: black;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.box{
+	float: left;
+	text-align: center;
+	font-size: 16pt;
+	width: 10px;
+	height: 30px;
+	padding: 2px;
+	margin: 3px;
+	color: yellow;
+}
+.letter{
+	border-bottom: solid white 2px;
+}
+.btnLetter{
+	display: inline-block;
+	text-align: center;
+	font-size: 18pt;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	margin: 3px;
+	color: white;
+	background-color: gray;
+	cursor: pointer;
+	cursor: hand;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: white 2px solid;
+}
+
+.btnLetter:hover{
+	background-color: navy;
+}
+.lblUsed{
+	display: inline-block;
+	text-align: center;
+	font-size: 14pt;
+	width: 24px;
+	height: 24px;
+	padding: 2px;
+	margin: 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: white 1px dotted;
+}
+#puzzle{
+	height: 40px;
+}
+#used{
+	min-height: 40px;
+}
